@@ -1,3 +1,5 @@
 export default function Page({ params }: { params: { name: string } }) {
-  return (<h1>Assembly: {params.name}</h1>)
+  return (
+    <p className="text-2xl font-bold">Assembly: {params.name}</p>
+  )
 }

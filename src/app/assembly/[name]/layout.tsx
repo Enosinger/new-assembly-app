@@ -4,6 +4,6 @@ export default function AssemblyLayout({
     children: React.ReactNode
 }) {
     return (
-        <section>{children}</section>
+        <div className="container">{children}</div>
     );
 }
